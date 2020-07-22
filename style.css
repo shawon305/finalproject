@@ -9,20 +9,28 @@ body {
 	background-image: url("images/babydots.jpg");
 	background-repeat: no-repeat;
 	background-size: cover; 
+	
 }
 
 .wrapper {
 	margin: 0 auto;
-	width: 890px;
+	width: 900px;
 	padding: 20;
+}
+.imglogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 350px;
+	padding-top: 40px;
+		
 }
 img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 3250px;
+	width: 350px;
 	padding-top: 40px;
-	
 }
 nav {
 	width: 100%;
@@ -64,6 +72,7 @@ ul li a {
 }
 ul li a:hover {
 	color: darkslategrey;
+	opacity: .5;
 
 }
 ul li a:visited {
@@ -85,6 +94,14 @@ ul li a:visited {
 	font-size: 15px;
 	margin-bottom: 2px;
 }
+ .center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;	
+}
+
+
 footer {
 	text-align: center;
 	border: medium;
