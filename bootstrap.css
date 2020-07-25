@@ -1,6 +1,7 @@
 @charset "utf-8";
 /* CSS Document */
 
+
 * {
 	margin: 0;
 	padding: 0;
@@ -194,7 +195,13 @@ input {
 	 
   }
 
-}
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 20%;
+  }
+	
+	
+	
 footer {
 	text-align: center;
 	clear: both;
