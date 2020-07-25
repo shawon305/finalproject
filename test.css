@@ -34,12 +34,11 @@ img {
 }
 
 h1 {
-	background-image: url("images/headerbackground.png");
+	background-image: url("images/flower-4148707_1920.png");
 	background-repeat: no-repeat;
 	background-position: center;
-	background-size: contain;
 	text-align: center;
-	color: white;
+	color: purple;
 	font-size: 20px;
 	padding-top: 20px;
 	padding-bottom: 20px;
@@ -89,7 +88,7 @@ ul a:visited {
 
 }
 .left{
-	width: 350px;
+	width: 200px;
 	float: left;
 	margin-left: 40px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
@@ -97,7 +96,7 @@ ul a:visited {
 	margin-bottom: 2px;
 }
 .right{
-	width: 350px;
+	width: 200px;
 	float: right;
 	margin-right: 40px;
 	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
