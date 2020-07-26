@@ -117,8 +117,7 @@ p {
 	position: absolute
 }
 .form
-{
-    display: block;
+{	display: block;
     text-align: center;
 	height: 130px;
 	line-height: 35px;
