@@ -115,7 +115,7 @@ p {
 
   /* Make the image fully responsive */
   .carousel-inner img {
-    width: 100%;
+    width: 95%;
 	margin: auto;
 	}
 
