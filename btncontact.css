@@ -1,7 +1,6 @@
 @charset "utf-8";
 /* CSS Document */
 
-
 * {
 	margin: 0;
 	padding: 0;
@@ -14,11 +13,15 @@ body {
 }
 
 .wrapper {
-background-image: url("images/opaqueblue.png");
+	background-image: url("images/opaqueblue.png");
 	background-repeat: no-repeat;
 	background-size: cover; 
 	margin: 0 auto;
 	width: 1000px;
+	max-height: none;
+	
+	
+
 }
 .imglogo {
 	display: block;
@@ -31,6 +34,7 @@ background-image: url("images/opaqueblue.png");
 }
 	
 nav {
+
 	width: 100%;
 	height: 40px;
 	line-height: 30px;
@@ -86,9 +90,9 @@ h2 {
 	font-family:  'Cabin Condensed', sans-serif;
 	font-size: 20px;
 	font-weight: 100;
-	text-align: left;
-	color: deeppink;
-	padding-bottom: 50px;
+	text-align: center;
+	color: white;
+	padding-top: 0 0 0 15px;
 	}
 h3 {
 	font-family:  'Cabin Condensed', sans-serif;
@@ -96,30 +100,55 @@ h3 {
 	font-weight: 100;
 	text-align: center;
 	color: deeppink;
-
-	}
+	padding: 24px 0 30px  0;
+}
 p {
 
 	text-align: center;
-	width: 100%;
-	padding-top: 14px;
+	width: 70%;
+	padding-top: 15px;
 	padding-bottom: 40px;
 }
 
+.carousel-inner {
+	width: 100%;
+	max-height: 400px;
+	text-align: center;
+}
 
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-	 
-  }
 
-  /* Make the image fully responsive */
-  .carousel-inner img {
-    width: 95%;
-	margin: auto;
-	}
+.center {
+display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	text-align: center;
+}
 
+.form {
+	display: block;
+    text-align: center;
+	height: 125px;
+	line-height: 35px;
+	background-color: purple;
+	border-width: thin;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.twitter.insta {
+	display: inline-block;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+
+input {
+	margin-left: 20px;
+	margin-right: 20px;
 
 	
 }
@@ -127,7 +156,7 @@ p {
 	width: 200px;
 	float: left;
 	margin-left: 40px;
-	font-family: Gotham, 'Cabin Condensed', sans-serif;
+	font-family: 'Cabin Condensed', sans-serif;
 	font-size: 15px;
 	margin-bottom: 2px;
 }
@@ -135,27 +164,31 @@ p {
 	width: 200px;
 	float: right;
 	margin-right: 40px;
-	font-family: Gotham, 'Cabin Condensed', sans-serif;
+	font-family: 'Cabin Condensed', sans-serif;
 	font-size: 15px;
 	margin-bottom: 2px;
 }
 
 
-
+/* purse handbag zipper pouch sections
 .row {
-  margin: auto;
+  margin: 8px -16px;
 }
 
 /* Add padding BETWEEN each column (if you want) */
-.row,
+.row {
+		margin:0 auto;
+
+}
 .row > .column {
-  padding: 30px;
+  padding: 30px 0 35px 20px;
 }
 
 /* Create four equal columns that floats next to each other */
 .column {
-  float: left;
-  width: 3%;
+   width: 33%;
+
+
 }
 
 /* Clear floats after rows */
@@ -167,13 +200,11 @@ p {
 
 /* Content */
 .content {
-  background-color: aliceblue;
-  height: 200px;
-	text-align: center;
-  padding: 10px;
-	
-}
+background-color: aliceblue;padding: 5px;
+  text-align: center;
 
+
+}
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
@@ -182,10 +213,11 @@ p {
 	 
   }
 
-
-	footer {
+}
+footer {
 	text-align: center;
 	clear: both;
 	font-family: 'Cabin Condensed', sans-serif;
-	}
-}
+	}@charset "utf-8";
+/* CSS Document */
+
