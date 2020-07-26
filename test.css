@@ -136,7 +136,7 @@ input {
 	width: 200px;
 	float: left;
 	margin-left: 40px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: 'Cabin Condensed', sans-serif;
 	font-size: 15px;
 	margin-bottom: 2px;
 }
@@ -144,7 +144,7 @@ input {
 	width: 200px;
 	float: right;
 	margin-right: 40px;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: 'Cabin Condensed', sans-serif;
 	font-size: 15px;
 	margin-bottom: 2px;
 }
@@ -165,6 +165,7 @@ input {
 .column {
   float: left;
   width: 25%;
+
 }
 
 /* Clear floats after rows */
@@ -184,6 +185,8 @@ input {
 @media screen and (max-width: 900px) {
   .column {
     width: 50%;
+
+	 
   }
 }
 
@@ -198,5 +201,5 @@ input {
 footer {
 	text-align: center;
 	clear: both;
-	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	font-family: 'Cabin Condensed', sans-serif;
 	}
