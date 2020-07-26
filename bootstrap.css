@@ -100,7 +100,7 @@ h3 {
 p {
 
 	text-align: center;
-	width: 70%;
+	width: 100%;
 	padding-top: 14px;
 	padding-bottom: 40px;
 }
@@ -167,11 +167,11 @@ p {
 /* Content */
 .content {
   background-color: aliceblue;
-	height: 200px;
+  height: 200px;
+	text-align: center;
   padding: 10px;
 	
 }
-
 
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
