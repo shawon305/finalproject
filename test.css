@@ -52,7 +52,7 @@ ul {
 ul li {
 	display: inline-block;
 	list-style: none;
-	font-family: 'Cabin Condensed', sans-serif;
+	font-family :'Cabin Condensed', sans-serif;
 		
 			
 }
@@ -165,7 +165,7 @@ font-family: 'Cabin Condensed', sans-serif;
     text-align: center;
 	height: 125px;
 	line-height: 35px;
-	background-color: purple;
+	background-color: #8300C0;
 	border-width: thin;
 	width: 90%;
 	margin-left: auto;
