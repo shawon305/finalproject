@@ -119,6 +119,9 @@ p {
 	max-height: 400px;
 	text-align: center;
 }
+.carousel-item {
+  transition-duration: 2s;
+}
 
 
 .center {
