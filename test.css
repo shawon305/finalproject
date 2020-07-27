@@ -93,7 +93,7 @@ h2 {
 	font-weight: 100;
 	text-align: center;
 	color: white;
-	padding-top: 0 0 0 15px;
+	padding-top: 0 15px 0 15px;
 	}
 h3 {
 	font-family:  'Cabin Condensed', sans-serif;
@@ -118,8 +118,12 @@ p {
 	width: 100%;
 	max-height: 350px;
 	text-align: center;
-}
 
+}
+.carousel-item {
+	transition-delay: 2s;
+	transition-duration: 3s;
+}
 
 .center {
 display: block;
@@ -169,10 +173,11 @@ font-family: 'Cabin Condensed', sans-serif;
 	font-family:  'Cabin Condensed', sans-serif;
 	color: white;
     text-align: center;
-	height: 125px;
+	height: 150px;
 	line-height: 35px;
 	background-color: #8300C0;
 	border-width: thin;
+	padding: 30px 0 30px 0;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
